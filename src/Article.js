@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faThumbsUp, faThumbsDown } from '@fortawesome/free-solid-svg-icons';
-import { db } from './firebaseConfig'; // Adjust this import path
+import { db } from './firebaseConfig'; 
 
 const Article = ({ id, title, summary, initialLikes, initialDislikes }) => {
   const [likes, setLikes] = useState(initialLikes);

@@ -1,7 +1,7 @@
 // App.js
 import React, { useState, useEffect } from 'react';
 import Article from './Article';
-import { db } from './firebaseConfig'; // Adjust this import path
+import { db } from './firebaseConfig'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
@@ -14,7 +14,7 @@ const App = () => {
     setLoading(true);
     const querySnapshot = await db.collection("articles")
       .orderBy("timestamp", "desc")
-      .limit(4) // Initial load limit
+      .limit(4) 
       .get();
 
     const lastVisibleDoc = querySnapshot.docs[querySnapshot.docs.length - 1];
@@ -34,7 +34,7 @@ const App = () => {
       const nextQuerySnapshot = await db.collection("articles")
         .orderBy("timestamp", "desc")
         .startAfter(lastVisible)
-        .limit(2) // Load one more article
+        .limit(2) 
         .get(0);
 
       const newLastVisible = nextQuerySnapshot.docs[nextQuerySnapshot.docs.length - 1];
