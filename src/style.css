@@ -1,0 +1,98 @@
+
+body {
+    background-color: whitesmoke;
+}
+
+.like-dislike-btn:last-child {
+    margin-right: 0;
+}
+
+.like-dislike-btn .count {
+    margin-left: 5px;
+}
+
+.like-dislike-btn.dislike i {
+    transform: scaleX(-1);
+}
+
+
+
+.icon-counter .count {
+    display: inline-block;
+}
+
+.col-auto {
+    margin-top: 20px;
+}
+
+.title-page1 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.btn-load-more {
+    color: #007bff;
+    background-color: transparent;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    box-shadow: 0 2px 2px rgba(0, 123, 255, 0.25);
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+.centered-container {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    background-color: white;
+    color: gray;
+    border-color: gray;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0px;
+    
+}
+.one:hover{
+    background-color: gray;
+   border-color: gray;
+   color: black;
+
+}
+.one:active{
+    border-color: gray;
+    color: gray;
+}
+.two:hover{
+    background-color: gray;
+   border-color: gray;
+   color: black;
+}
+
+.two {
+    background-color: white;
+    color: gray;
+    border-color: gray;
+    border-left: 0px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+.stdd{
+margin-bottom: 25px;
+
+}
+
+.std{
+margin-bottom: 20PX;
+
+}
+.container{
+
+width: 820PX;
+}
