@@ -1,0 +1,33 @@
+.imgglobal{
+    width: 440px;
+    height: 180px;
+
+}
+.card-text{
+    color: rgb(150, 148, 148);
+    line-height: 8px;
+}
+.card-global{
+    color:  rgb(150, 148, 148);
+    line-height: 0px;
+}
+.card-title{
+    line-height: 50px;
+}
+.imggirle{
+    width: 60px;
+    height: 60px;
+}
+.imgboy{
+    width: 60px;
+    height: 60px;
+    margin-left: -14px;
+}
+.phto{
+    color: rgb(150, 148, 148);
+}
+.img34{
+    width: 60px;
+    height: 60px;
+    margin-left: -14px;
+}
