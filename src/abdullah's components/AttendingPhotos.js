@@ -10,7 +10,7 @@ function CircledPhotos() {
                         <img
                             className="hh"
                             alt="avatar1"
-                            src="https://scontent.ffjr1-5.fna.fbcdn.net/v/t39.30808-6/358616236_267628379534981_7244717483181487991_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=HSx9LQDN7MwAX_OvdLB&_nc_ht=scontent.ffjr1-5.fna&oh=00_AfDImewBy0mg2X-gtPc0ZfDpHvOPKqsYjICIPIxiThjXPg&oe=657C327F"
+                            src="https://scontent.ffjr1-2.fna.fbcdn.net/v/t39.30808-6/310927976_1213975362668142_8320853404561131857_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9c7eae&_nc_ohc=sVSU9n5sk60AX8LibR1&_nc_ht=scontent.ffjr1-2.fna&oh=00_AfAK0amyvXWU-qkB4ik1TC3Yd9S6iKx1v4NoWhyKGrE-Fg&oe=657F971F"
                         />
                     </div>
                     <div className="circle-photo">

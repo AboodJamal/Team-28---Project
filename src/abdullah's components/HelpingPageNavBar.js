@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CustomNavbar() {
+function HelpingPageNavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
@@ -153,7 +153,8 @@ function CustomNavbar() {
                                 My Network
                             </a>
                         </li>
-                        <li className="nav-item" style={{
+                        <li className="nav-item" 
+                        style={{
                             marginLeft: "3px",
                             marginRight: "10px",
                             backgroundColor: '#DADDE1',
@@ -209,4 +210,4 @@ function CustomNavbar() {
     );
 }
 
-export default CustomNavbar;
+export default HelpingPageNavBar;

@@ -7,7 +7,7 @@ const EventCard = () => {
     const handleButtonClick = () => {
         setButtonClicked(!buttonClicked);
     };
-    const primaryColor = 'rgba(0, 123, 255, 0.9)';
+    const primaryColor = 'rgba(0, 123, 255, 1.0)';
     return (
         <>
             <div className="col-12 col-md-6 col-lg-4 col mb-5">
@@ -20,7 +20,7 @@ const EventCard = () => {
                         src="https://images.unsplash.com/photo-1450609283058-0ec52fa7eac4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fHw%3D"
                         alt="..."
                     />
-                    <div className="badge bg text-white d-flex align-items-center  " style={{
+                    <div className="badge bg text-white d-flex align-items-center" style={{
                         width: "fit-content", padding: "3%",
                         top: '50%',
                         left: '10px',
