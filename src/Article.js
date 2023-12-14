@@ -27,7 +27,7 @@ const Article = ({ id, title, summary, initialLikes, initialDislikes }) => {
           <p className="mb-1">{summary}</p>
         </div>
         <div className="col-auto std">
-          <div className="icon-counter text-center">
+          <div className="icon-counter text-center " >
             <button type="button" className="btn one" onClick={incrementLikes}>
               <FontAwesomeIcon icon={faThumbsUp} />
               <span className="count">{likes}</span>
