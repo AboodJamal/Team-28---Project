@@ -1,5 +1,5 @@
 import React from 'react';
-import ArticlesList from './ComponentsAhmad/ArticlesList';
+import ArticlesList from './Ahmad components/ArticlesList';
 
 const App = () => {
   return (
