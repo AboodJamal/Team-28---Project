@@ -1,15 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import Footer from './nosyba copmonent/footerpage1';
-import Appfooter from './nosyba copmonent/appfooter';
+import React from 'react';
+import PopularQuestions from "./nosyba component/popularquestion"; // Adjust the path as necessary
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'; // Your main App CSS
+import Footer from './footer';
 
 
 function App() {
   return (
-    <div className="App">
-      
-     
-    </div>
+
+
+<div>
+  <Footer/>
+
+        <PopularQuestions />
+
+
+        </div>
+
   );
 }
 
