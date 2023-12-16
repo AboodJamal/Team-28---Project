@@ -1,38 +1,184 @@
-.App {
+.img{
+
+  max-width: 45px; /* Maximum width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* To prevent inline default space */
+  margin: 0 auto; /* Center the image in the card */
+  margin-top: 7%;
+  margin-bottom: 5%;
+ 
+
+
+}
+
+
+
+.par{
+
+  font-size:22px;
+  font-style:bold;
+  font-weight: bold;
+  text-emphasis-style:unset;
   text-align: center;
+
+}
+.cards-container{
+
+  margin-top: 10%;
+  margin-bottom: 25%;
+ 
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+
+.des{
+  color: #ffff;
+  text-align: center;
+  margin-bottom: 10rem ;
+  margin-top: 10rem;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#size{
+  font-size: larger;
+  font-weight: bold;
+
+  
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header{
+  background-color: aliceblue;
+  border: 1px solid #fffefe; /* Change the color and size as needed */
+  padding: 1rem;
+  border-radius: 0.4rem; /* Adjust for rounded corners */
+  
+  margin-left: auto;  
+  margin-right: auto; 
+  
+  
+  max-width: 750px; 
+
+  margin-top: -6%;
+ 
+
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+.background-image{
+   
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aacecb44-b8df-4788-bf7c-32043c75ab4f/dgde3lw-f9c03a77-f038-4fc0-8dc5-5c0a54ba339b.png/v1/fill/w_1192,h_670,q_70,strp/jjk_wallpaper_4k_by_gothxluciole_dgde3lw-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcL2FhY2VjYjQ0LWI4ZGYtNDc4OC1iZjdjLTMyMDQzYzc1YWI0ZlwvZGdkZTNsdy1mOWMwM2E3Ny1mMDM4LTRmYzAtOGRjNS01YzBhNTRiYTMzOWIucG5nIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.bVrCVDY9cIcbZA5kcUPcYh8crkyaLAXAD1ycKjz74b4');
+  background-size: cover;
+  background-repeat: no-repeat ;
+  background-position:top center;
+  position: relative;
+  height: 550px;
+  
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.position-relative {
+  position: relative;
 }
+
+.search-icon {
+  position: absolute;
+  right: 17px;
+  top: 28%;
+ 
+}
+
+
+
+.cards-container {
+  margin-top: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.RT{
+
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 200px;
+
+}
+
+
+.list-unstyled {
+  list-style: none; /* Remove default bullets */
+  padding-left: 0; /* Remove default padding */
+}
+
+.list-unstyled li {
+  display: flex; /* Align icon and text */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 0.5rem; /* Space between items */
+}
+
+.icon1{
+
+  color: rgb(34, 201, 81);
+  font-size: 40px;
+  margin-bottom: 1.2rem;
+
+
+}
+.icon2{
+
+  color: rgb(234, 164, 11);
+  font-size: 40px;
+  margin-bottom: 1.2rem;
+
+}
+.icon3{
+
+  color: rgb(44, 128, 218);
+  font-size: 40px;
+  margin-bottom: 1.2rem;
+}
+#GS{
+
+  margin-bottom: 1.7rem;
+
+}
+#AS{
+
+  margin-bottom: 1.7rem;
+
+}#OT{
+
+  margin-bottom: 1.7rem;
+
+}
+
+
+
+
+
+
+
+
