@@ -9,7 +9,7 @@ function App() {
     <>
       <HelpingPageNavBar />
       <DiscoverEventsCards />
-      <TopDistenationsCards/>
+      <TopDistenationsCards />
     </>
   );
 }

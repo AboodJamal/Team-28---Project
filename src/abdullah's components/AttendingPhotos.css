@@ -1,21 +1,20 @@
-
-.photos-and-circle {
+.photos-and-circle-cont {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: 20px; /* Space for the cards above */
+    margin-top: 20px;
     margin-left: 10px;
 }
 
-.photos {
+.circled-photos {
     display: flex;
 }
 
-.circle {
+.one-circle {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: rgb(12, 113, 222); /* Change to desired color */
+    background-color: rgb(12, 113, 222);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,11 +22,8 @@
     border: 2px solid white;
 }
 
-.number {
-    font-size: 24px;
-    color: white;
-}
-.circle-photo {
+
+.each-circle-photo {
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -35,7 +31,8 @@
     margin-left: -14px;
     border: 2px solid white;
 }
-.circle-photo img {
+
+.each-circle-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -45,10 +42,8 @@
 .attending-text {
     display: flex;
     align-items: center;
-    margin-left: 5px; /* Adjust the margin as needed */
-    margin-top: 7px; /* Adjust the margin as needed */
-    font-size: 15px; /* Adjust the font size as needed */
-    color: #555; /* Adjust the color as needed */
+    margin-left: 5px;
+    margin-top: 7px;
+    font-size: 15px;
+    color: #555;
 }
-
-

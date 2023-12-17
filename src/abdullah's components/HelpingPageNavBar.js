@@ -3,12 +3,12 @@ import React from 'react';
 function HelpingPageNavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid">
+            <div className="container">
                 <a
                     href="#"
                     style={{
                         marginLeft: "25px",
-                        marginRight: "17px",
+                        marginRight: "10px",
                         backgroundColor: '#2C7BE0',
                         borderRadius: "6px",
                         display: "flex",
@@ -19,6 +19,57 @@ function HelpingPageNavBar() {
                 >
                     <i className="bi bi-megaphone-fill" style={{ color: "white" }}></i>
                 </a>
+                <div className="d-flex order-lg-2">
+                    <ul className="nav flex-nowrap align-items-center ms-sm-3 list-unstyled">
+                        <li className="nav-item"
+                            style={{
+                                marginRight: 4,
+                                backgroundColor: '#DADDE1',
+                                borderRadius: "6px",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                padding: "1px 1px",
+                            }} >
+                            <a className="nav-link" href="#">
+                                <i className="bi bi-chat-left-text-fill" style={{ color: "#60656A " }}></i>
+                            </a>
+                        </li>
+                        <li className="nav-item" style={{
+                            marginRight: 4,
+                            backgroundColor: '#DADDE1',
+                            borderRadius: "6px",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            padding: "1px 1px",
+                        }} >
+                            <a className="nav-link" href="#">
+                                <i className="bi bi-gear-fill" style={{ color: "#60656A " }}></i>
+                            </a>
+                        </li>
+                        <li className="nav-item" style={{
+                            marginRight: 4,
+                            backgroundColor: '#DADDE1',
+                            borderRadius: "6px",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            padding: "1px 1px",
+                        }} >
+                            <a className="nav-link" href="#">
+                                <i className="bi bi-bell-fill" style={{ color: "#60656A " }}></i>
+                            </a>
+                        </li>
+                        <li className="nav-item ">
+                            <a href="#" className="profile-image" >
+                                <img src="https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/362262967_1427459524776754_8623404211282031163_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=0Sma7m9Y3o0AX-QVxh4&_nc_ht=scontent-ams2-1.xx&oh=00_AfDRJBId9JxVvIP2wRnJ9Q1VyKp63JMMdtICKlJA1hCjcQ&oe=658353FC"
+                                    style={{ width: "40px", height: "40px", marginTop: "0px", borderRadius: "6px" }}
+                                />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -32,11 +83,14 @@ function HelpingPageNavBar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <form className="d-flex" style={{ position: 'relative' }}>
-                        <button className="btn" type="submit" style={{ marginRight: "-42px", zIndex: "1" }}>
-                            <i className="bi bi-search"></i>
+                        <button
+                            className="btn bg-transparent px-2 py-0 position-absolute top-50 start-0 translate-middle-y"
+                            type="submit"
+                        >
+                            <i className="bi bi-search fs-5"> </i>
                         </button>
                         <input
-                            className="form-control me-2"
+                            className="form-control me-2 mt-1 mb-1"
                             type="search"
                             placeholder="Search"
                             aria-label="Search"
@@ -151,56 +205,6 @@ function HelpingPageNavBar() {
                         <li className="nav-item" style={{ marginRight: "6px" }}>
                             <a className="nav-link" href="#" style={{ color: "#717274" }}>
                                 My Network
-                            </a>
-                        </li>
-                        <li className="nav-item" 
-                        style={{
-                            marginLeft: "3px",
-                            marginRight: "10px",
-                            backgroundColor: '#DADDE1',
-                            borderRadius: "6px",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            padding: "1px 6px",
-                        }} >
-                            <a className="nav-link" href="#">
-                                <i class="bi bi-chat-left-text-fill" style={{ color: "#60656A " }}></i>
-                            </a>
-                        </li>
-                        <li className="nav-item" style={{
-                            marginLeft: "3px",
-                            marginRight: "10px",
-                            backgroundColor: '#DADDE1',
-                            borderRadius: "6px",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            padding: "1px 6px",
-                        }} >
-                            <a className="nav-link" href="#">
-                                <i class="bi bi-gear-fill"></i>
-                            </a>
-                        </li>
-                        <li className="nav-item" style={{
-                            marginLeft: "3px",
-                            marginRight: "10px",
-                            backgroundColor: '#DADDE1',
-                            borderRadius: "6px",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            padding: "1px 6px",
-                        }} >
-                            <a className="nav-link" href="#">
-                                <i class="bi bi-bell-fill"></i>
-                            </a>
-                        </li>
-                        <li className="nav-item ">
-                            <a href="#" className="profile-image" >
-                                <img src="https://scontent.ffjr1-1.fna.fbcdn.net/v/t39.30808-6/362262967_1427459524776754_8623404211282031163_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=6--sSopn4H4AX_CD5FS&_nc_ht=scontent.ffjr1-1.fna&oh=00_AfANUBwFZPS5Sw5gJSGJO85phx1pkIVAfbQLB23UGxfGkw&oe=657B6AFC"
-                                    style={{ width: "40px", height: "40px", marginTop: "0px", borderRadius: "6px" }}
-                                />
                             </a>
                         </li>
                     </ul>
