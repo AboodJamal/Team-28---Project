@@ -1,4 +1,4 @@
-.img{
+.card-image{
 
   max-width: 45px; /* Maximum width */
   height: auto; /* Maintain aspect ratio */
@@ -13,10 +13,9 @@
 
 
 
-.par{
+.card-content{
 
   font-size:22px;
-  font-style:bold;
   font-weight: bold;
   text-emphasis-style:unset;
   text-align: center;
@@ -34,7 +33,7 @@
 
 
 
-.des{
+.header-des{
   color: #ffff;
   text-align: center;
   margin-bottom: 10rem ;
@@ -42,7 +41,7 @@
 
 }
 
-#size{
+#form-title{
   font-size: larger;
   font-weight: bold;
 
@@ -50,7 +49,7 @@
 
 }
 
-.header{
+.header-form{
   background-color: aliceblue;
   border: 1px solid #fffefe; /* Change the color and size as needed */
   padding: 1rem;
@@ -73,10 +72,10 @@
 
 .background-image{
    
-  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aacecb44-b8df-4788-bf7c-32043c75ab4f/dgde3lw-f9c03a77-f038-4fc0-8dc5-5c0a54ba339b.png/v1/fill/w_1192,h_670,q_70,strp/jjk_wallpaper_4k_by_gothxluciole_dgde3lw-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcL2FhY2VjYjQ0LWI4ZGYtNDc4OC1iZjdjLTMyMDQzYzc1YWI0ZlwvZGdkZTNsdy1mOWMwM2E3Ny1mMDM4LTRmYzAtOGRjNS01YzBhNTRiYTMzOWIucG5nIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.bVrCVDY9cIcbZA5kcUPcYh8crkyaLAXAD1ycKjz74b4');
+  background-image: url('https://static.independent.co.uk/2021/11/06/20/Music_Festival-Deaths_83515.jpg');
   background-size: cover;
   background-repeat: no-repeat ;
-  background-position:top center;
+  background-position: center;
   position: relative;
   height: 550px;
   
@@ -98,7 +97,7 @@
 
 
 .cards-container {
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 
@@ -128,12 +127,12 @@
 }
 
 
-.list-unstyled {
+.list {
   list-style: none; /* Remove default bullets */
   padding-left: 0; /* Remove default padding */
 }
 
-.list-unstyled li {
+.list li {
   display: flex; /* Align icon and text */
   align-items: center; /* Center items vertically */
   margin-bottom: 0.5rem; /* Space between items */
@@ -174,9 +173,6 @@
   margin-bottom: 1.7rem;
 
 }
-
-
-
 
 
 

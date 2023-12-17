@@ -1,4 +1,3 @@
-
 import {Container, Col, Row, Card} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BsEmojiSmile } from "react-icons/bs";
@@ -26,7 +25,7 @@ function RecommendedTopics() {
               </Card.Title>
             <Card.Text><h4 id="GS">Get Started</h4></Card.Text>
               
-              <ul className="list-unstyled">
+              <ul className="list">
                 <li>
                 <FcNext/>Gulp and Customization
                 </li>
@@ -57,7 +56,7 @@ function RecommendedTopics() {
               </Card.Title>
             <Card.Text><h4 id="AS">Account Setup</h4></Card.Text>
               
-              <ul className="list-unstyled">
+              <ul className="list">
                 <li>
                 <FcNext/>Connecting to your Account
                 </li>
@@ -89,7 +88,7 @@ function RecommendedTopics() {
             
             <Card.Text><h4 id="OT">Other Topics</h4></Card.Text>
               
-              <ul className="list-unstyled">
+              <ul className="list">
                 <li>
                 <FcNext/>Security & Privacy
                 </li>
