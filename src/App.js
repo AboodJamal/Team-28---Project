@@ -1,24 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import DiscoverEventsCards from './abdullah\'s components/DiscoverEventsCards';
+import HelpingPageNavBar from './abdullah\'s components/HelpingPageNavBar';
+import TopDistenationsCards from './abdullah\'s components/TopDestinationsCards';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HelpingPageNavBar />
+      <DiscoverEventsCards />
+      <TopDistenationsCards />
+    </>
   );
 }
 
