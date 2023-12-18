@@ -1,0 +1,126 @@
+/* Base styles */
+.container {
+    background-image: url('./pic/1aaa \(2\).png');
+    background-size: cover;
+    width: 700px;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+}
+
+.event-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: white;
+}
+
+.qr-code img {
+    max-width: 100%; /* Changed to 100% for responsiveness */
+    height: auto;
+}
+
+.book {
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+    width: 160px;
+    font-size: 19px;
+}
+
+.share {
+    border: 1px white;
+    border-radius: 6px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 110px;
+    height: 44px;
+}
+
+.date-time {
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.S {
+    display: inline-block;
+    margin-left: 30px;
+    padding-bottom: 5px;
+}
+
+.time {
+    font-weight: lighter;
+    margin-top: 17px;
+}
+
+.font {
+    font-weight: bold;
+}
+
+
+
+.col {
+    margin-left: 10px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%; /* Full width */
+        margin-top: 100px; /* Less margin at the top */
+        padding: 0 15px; /* Add some padding on the sides */
+    }
+
+    .event-card {
+        width: auto; /* Full width within container padding */
+        margin: 0 auto; /* Center the card */
+    }
+
+    .qr-code {
+        margin: 20px auto 0; /* Center QR code and reduce margin-top */
+    }
+
+    .book,
+    .share {
+        margin: 20px auto; /* Center buttons */
+        display: block; /* Stack the buttons */
+        width: calc(100% - 30px); /* Full width within container padding */
+    }
+
+    .book {
+        font-size: 16px; /* Slightly smaller font size */
+    }
+
+    .date-time,
+    .S {
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center align the text */
+        width: 100%; /* Full width */
+    }
+
+    .time {
+        margin-top: 10px; /* Reduce margin-top */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        margin-top: 50px; /* Even less margin at the top */
+    }
+
+    /* You can add more styles here for smaller screens if necessary */
+}

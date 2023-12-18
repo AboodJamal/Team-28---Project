@@ -3,15 +3,18 @@ import './App.css';
 import DiscoverEventsCards from './abdullah\'s components/DiscoverEventsCards';
 import HelpingPageNavBar from './abdullah\'s components/HelpingPageNavBar';
 import TopDistenationsCards from './abdullah\'s components/TopDestinationsCards';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+const App = () => {
   return (
+    </div>
     <>
       <HelpingPageNavBar />
       <DiscoverEventsCards />
       <TopDistenationsCards />
     </>
   );
-}
+};
 
 export default App;
+
