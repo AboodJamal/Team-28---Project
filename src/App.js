@@ -1,18 +1,18 @@
-import React from 'react';
-import ArticlesList from './Ahmad_Components/Articles_components/ArticlesList';
-import MyNavbar from './Ahmad_Components/Navbar_EventsPage/MyNavbar';
-import EventTicket from './Ahmad_Components/Book a conference/EventTicket';
-
+import logo from './logo.svg';
+import './App.css';
+import DiscoverEventsCards from './abdullah\'s components/DiscoverEventsCards';
+import HelpingPageNavBar from './abdullah\'s components/HelpingPageNavBar';
+import TopDistenationsCards from './abdullah\'s components/TopDestinationsCards';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
-    <div>
-    <MyNavbar/>
-    <ArticlesList/> 
-     <EventTicket/>
-
     </div>
+    <>
+      <HelpingPageNavBar />
+      <DiscoverEventsCards />
+      <TopDistenationsCards />
+    </>
   );
 };
 
