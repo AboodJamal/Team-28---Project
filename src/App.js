@@ -1,10 +1,20 @@
-import React from 'react'
-import FooterEventsP from "./rajaa's components/footer-events-p/FooterEventsP.jsx"
-import HeaderHelpP from "./rajaa's components/header-help-p/HeaderHelpP.jsx"
-function App() {
-  return (
-    <></>
-  )
-}
 
-export default App
+import logo from './logo.svg';
+import './App.css';
+import DiscoverEventsCards from './abdullah\'s components/DiscoverEventsCards';
+import HelpingPageNavBar from './abdullah\'s components/HelpingPageNavBar';
+import TopDistenationsCards from './abdullah\'s components/TopDestinationsCards';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const App = () => {
+  return (
+    </div>
+    <>
+      <HelpingPageNavBar />
+      <DiscoverEventsCards />
+      <TopDistenationsCards />
+    </>
+  );
+};
+
+export default App;
