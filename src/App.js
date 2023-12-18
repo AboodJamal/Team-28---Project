@@ -8,7 +8,8 @@ function App() {
   return (
     <div>
       
-  
+    <Header1/>
+    <RecommendedTopics/>
 
 
     
