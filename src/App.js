@@ -1,15 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import DiscoverEventsCards from './abdullah\'s components/DiscoverEventsCards';
-import HelpingPageNavBar from './abdullah\'s components/HelpingPageNavBar';
-import TopDistenationsCards from './abdullah\'s components/TopDestinationsCards';
+import React from 'react';
+import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import EventsPage from './components/EventsPage';
+import HelpingPage from './components/HelpingPage';
+import ViewAllEvents from './abdullah\'s components/ViewAllEvents';
 
 function App() {
   return (
     <>
-      <HelpingPageNavBar />
-      <DiscoverEventsCards />
-      <TopDistenationsCards />
+      <Router>
+        <Routes>
+          <Route path="/OurEventsPage" element={<EventsPage />} />
+          <Route path='/HelpingPage' index element={<HelpingPage />} />
+          <Route path='/ViewAllEvents' index element={<ViewAllEvents />} />
+          <Route index element={<HelpingPage />} />
+        </Routes>
+      </Router>
     </>
   );
 }

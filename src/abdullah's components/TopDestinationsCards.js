@@ -1,6 +1,7 @@
 import React from 'react';
 import DestinationCard from './DestinationCard';
 import { useFireBase } from '../TeamFireBase/useFireBase';
+import { Link } from 'react-router-dom';
 
 function TopDistenationsCards() {
     const { items } = useFireBase("topDestinationCom");
@@ -12,7 +13,7 @@ function TopDistenationsCards() {
                 </div>
                 <div className="row gx-2 gx-md-4 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     {items.map((item) => (
-                                <DestinationCard key={item.id} imgLink={item.img} title={item.title} underTitle={item.underTitle} />
+                            <DestinationCard key={item.id} imgLink={item.img} title={item.title} underTitle={item.underTitle} />
                     ))}
                 </div>
             </div>
