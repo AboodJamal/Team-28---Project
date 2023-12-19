@@ -4,11 +4,46 @@ import { BsEmojiSmile } from "react-icons/bs";
 import { BsLayers } from "react-icons/bs";
 import { BsInfoCircle } from "react-icons/bs";
 import { FcNext } from "react-icons/fc";
-
+import { useEffect, useState } from "react";
+import { collection, onSnapshot } from "firebase/firestore";
+import {db} from '../config/firebase';
 
 import React from 'react'
 
+
 function RecommendedTopics() {
+
+  const[topics1, setTopics1] = useState([]);
+  const[topics2, setTopics2] = useState([]);
+  const[topics3, setTopics3] = useState([]);
+
+
+  useEffect(() => {
+   
+     onSnapshot(collection(db, "recommendedTopics1"), (snapshot) => {
+      setTopics1(snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+    });
+  
+    
+    onSnapshot(collection(db, "recommendedTopics2"), (snapshot) => {
+      setTopics2(snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+    });
+  
+    
+     onSnapshot(collection(db, "recommendedTopics3"), (snapshot) => {
+      setTopics3(snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+    });
+  
+   
+  }, []);
+  
+
+  
+
+
+
+
+
   return (
     <div className="App">
 
@@ -26,21 +61,16 @@ function RecommendedTopics() {
             <Card.Text><h4 id="GS">Get Started</h4></Card.Text>
               
               <ul className="list">
-                <li>
-                <FcNext/>Gulp and Customization
-                </li>
-                <li>
-                <FcNext/>Color Scheme and Logo Settings
-                </li>
-                <li>
-                <FcNext/>Dark mode, RTL Version and Lazy Load
-                </li>
-                <li>
-                <FcNext/>Sources, Credits and Changelog
-                </li>
-                <li>
-                <FcNext/>Updates and Support
-                </li>
+              
+                {topics1.map((t) => {
+                  return ( 
+                    <li key={t.id}>
+                      <FcNext /> {t.topic}
+                    </li>
+                  );
+                })}
+                   
+              
               </ul>
               
             </Card.Body>
@@ -57,21 +87,13 @@ function RecommendedTopics() {
             <Card.Text><h4 id="AS">Account Setup</h4></Card.Text>
               
               <ul className="list">
-                <li>
-                <FcNext/>Connecting to your Account
-                </li>
-                <li>
-                <FcNext/>Edit your profile information
-                </li>
-                <li>
-                <FcNext/>Connecting to other Social Media Accounts
-                </li>
-                <li>
-                <FcNext/>Adding your profile picture
-                </li>
-                <li>
-                <FcNext/>Describing your store
-                </li>
+              {topics2.map((t) => {
+                  return ( 
+                    <li key={t.id}>
+                      <FcNext /> {t.topic}
+                    </li>
+                  );
+                })}
               </ul>
               
             </Card.Body>
@@ -89,21 +111,13 @@ function RecommendedTopics() {
             <Card.Text><h4 id="OT">Other Topics</h4></Card.Text>
               
               <ul className="list">
-                <li>
-                <FcNext/>Security & Privacy
-                </li>
-                <li>
-                <FcNext/>Author, Publisher & Admin Guides
-                </li>
-                <li>
-                <FcNext/>Pricing plans
-                </li>
-                <li>
-                <FcNext/> Sales Tax & Regulatory Fees
-                </li>
-                <li>
-                <FcNext/>Promotions & Deals
-                </li>
+              {topics3.map((t) => {
+                  return ( 
+                    <li key={t.id}>
+                      <FcNext /> {t.topic}
+                    </li>
+                  );
+                })}
               </ul>
               
             </Card.Body>
@@ -124,4 +138,3 @@ function RecommendedTopics() {
 }
 
 export default RecommendedTopics
-
