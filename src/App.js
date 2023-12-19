@@ -3,6 +3,8 @@ import PopularQuestions from "./nosyba component/popularquestion"; // Adjust the
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; // Your main App CSS
 import Footer from './footer';
+import Global  from './globalpage2';
+import "./nosyba component/App.css";
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
   <Footer/>
 
         <PopularQuestions />
+        <Global/>
 
 
         </div>

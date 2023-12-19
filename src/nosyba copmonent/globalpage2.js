@@ -2,38 +2,72 @@
 
 import imggirle from "./girleimg.jpeg"
 import imgboy from "./boyimg.jpg"
-import img from "./+34 img.png"
+
 import imageGlobal from "./globalpage.jpg"
 
 const Global =()=>{
     return(
-<div>
-        <br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br> <br></br><br></br><br></br><br></br><br></br><br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<img src={imageGlobal} className="img-fluid" alt='' />
- 
-<div className="mb-3">
-    
-<div className="card-body">
-   <h5 className="card-title"><b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Global conference </b></h5>
-   
-   <p className="card-text"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;He moonlights difficult engrossed it,sportsmen.Interested has</p>
-   <p className="card-global">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;all Devonshire difficult gay assistance joy.</p> <br></br>
-     
-     
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={imggirle} className='imggirle'  /><img src={imgboy} className='imgboy'  /><img src={img} className='img34'  />
-  &nbsp; <span className='phto' >are attending </span>
- <br></br>
-    </div>
-   
+<div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6 col-lg-6 col mb-5">
+            <div
+              className="card h-100 position-relative"
+             style={{ objectFit: "cover" ,height: "290px"}}
+            >
+             
+              <div className="card-body">
+              <img
+                className="card-img-top"
+                style={{ objectFit: "cover" }}
+                src={imageGlobal}              
+                alt=""
+              />
+                <h5 className="card-title">Global conference</h5>
+                <div className="card-text">
+                 
+                  He moonlights difficult engrossed it,sportsmen.Interested has
+                </div>
+                <div className="card-global">
+                 
+                  all Devonshire difficult gay assistance joy.
+                </div>
+                <div
+                  className="photos-and-circle-cont"
+                  style={{ marginTop: 5, marginLeft: 10 }}
+                >
+                  <div className="circled-photos">
+                    <div className="each-circle-photo">
+                      <img
+                        className="hh"
+                        alt="avatar1"
+                        src={imggirle}
+                      />
+                    </div>
+                    <div className="each-circle-photo">
+                      <img
+                        className="hh"
+                        alt="avatar1"
+                        src={imgboy}
+                      />
+                    </div>
+                    <div className="one-circle">
+                      <span
+                        className="att-number"
+                        style={{ fontSize: 10, color: "white" }}
+                      >
+                        +34
+                      </span>
+                    </div>
+                    <div className="attending-text">
+                      <p>are attending</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
- 
-   
-    
-
-    
-  
 
     );
 }
