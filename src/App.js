@@ -1,26 +1,17 @@
-import React from 'react';
-import PopularQuestions from "./nosyba component/popularquestion"; // Adjust the path as necessary
+import logo from './logo.svg';
+import './App.css';
+import DiscoverEventsCards from './abdullah\'s components/DiscoverEventsCards';
+import HelpingPageNavBar from './abdullah\'s components/HelpingPageNavBar';
+import TopDistenationsCards from './abdullah\'s components/TopDestinationsCards';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'; // Your main App CSS
-import Footer from './footer';
-import Global  from './globalpage2';
-import "./nosyba component/App.css";
 
-
-function App() {
+const App = () => {
   return (
+    </div>
+    <>
 
-
-<div>
-  <Footer/>
-
-        <PopularQuestions />
-        <Global/>
-
-
-        </div>
-
+    </>
   );
-}
+};
 
 export default App;
