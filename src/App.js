@@ -8,13 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
   return (
     <div>
-    {/* <MyNavbar/>
-    <ArticlesList/> 
-     <EventTicket/> */}
-
+    App
     </div>
   );
 };
 
 export default App;
-

@@ -11,6 +11,7 @@
 
 body {
   margin: 0;
+
   font-family: 'Inter';
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
