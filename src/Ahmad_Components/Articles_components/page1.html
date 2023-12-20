@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Articles</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+    <style>
+      
+    </style>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h2 class="title-page1">Popular articles</h2>
+        <div class="list-group" id="articles-list">
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="mb-1">Get started with node.js</h5>
+                        <p class="mb-1">Satisfied conveying a dependent contented he gentleman agreeable do be.</p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="icon-counter text-center">
+                            <button type="button" class="btn one" onclick="incrementCounter('like-count')">
+                                <i class="fa-solid fa-thumbs-up fa-sm"></i>
+                                <span class="count" id="like-count">675</span>
+                            </button><!--
+                              --><button type="button" class="btn btn-secondary two"
+                                onclick="incrementCounter('dislike-count')">
+                                <span class="count" id="dislike-count">10</span>
+                                <i class="fa-solid fa-thumbs-down fa-sm"></i>                            </button>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="list-group" id="articles-list">
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="mb-1">Upgrade Gulp 3 to Gulp 4 the gulpfile.js workflow</h5>
+                        <p class="mb-1">Required his you put the outlived answered position.</p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="icon-counter text-center">
+                            <button type="button" class="btn one" onclick="incrementCounter('like-count')">
+                                <i class="fa-solid fa-thumbs-up fa-sm"></i>
+                                <span class="count" id="like-count">675</span>
+                            </button><!--
+                              --><button type="button" class="btn btn-secondary two"
+                                onclick="incrementCounter('dislike-count')">
+                                <span class="count" id="dislike-count">10</span>
+                                <i class="fa-solid fa-thumbs-down fa-sm"></i>                            </button>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="list-group" id="articles-list">
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="row">
+
+                    <div class="col">
+                        <h5 class="mb-1">6 Reasons to use Bootstrap 5 for better UI development</h5>
+                        <p class="mb-1">As it so contrasted oh estimating instrument. Size like body some one had.</p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="icon-counter text-center">
+                            <button type="button" class="btn  one" onclick="incrementCounter('like-count')">
+                                <i class="fa-solid fa-thumbs-up fa-sm"></i>
+                                <span class="count" id="like-count">675</span>
+                            </button><!--
+                              --><button type="button" class="btn btn-secondary two"
+                                onclick="incrementCounter('dislike-count')">
+                                <span class="count" id="dislike-count">10</span>
+                                <i class="fa-solid fa-thumbs-down fa-sm"></i>                            </button>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    </div>
+    <div class="container mt-5">
+        <div class="list-group" id="articles-list">
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="row">
+
+                    <div class="col">
+                        <h5 class="mb-1">A beginner's guide to browser-sync</h5>
+                        <p class="mb-1">Started several mistake joy say painful removed reached end.</p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="icon-counter text-center">
+                            <button type="button" class="btn  one" onclick="incrementCounter('like-count')">
+                                <i class="fa-solid fa-thumbs-up fa-sm"></i>
+                                <span class="count" id="like-count">675</span>
+                            </button><!--
+                              --><button type="button" class="btn btn-secondary two"
+                                onclick="incrementCounter('dislike-count')">
+                                <span class="count" id="dislike-count">10</span>
+                                <i class="fa-solid fa-thumbs-down fa-sm"></i>                            </button>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="centered-container">
+        <button type="button" class="btn btn-load-more">Load more</button>
+    </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2eaeb81b3c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function incrementCounter(id) {
+            var counterElement = document.getElementById(id);
+            var currentCount = parseInt(counterElement.innerText);
+            counterElement.innerText = currentCount + 1;
+        }
+    </script>
+    <script src="./java.js"></script>
+</body>
+
+</html>

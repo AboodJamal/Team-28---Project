@@ -1,20 +1,17 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header1 from './saleh_components/Header1';
-import RecommendedTopics from './saleh_components/RecommendedTopics';
-import {db} from './config/firebase'
+import React from 'react';
+import ArticlesList from './Ahmad_Components/Articles_components/ArticlesList';
+import MyNavbar from './Ahmad_Components/Navbar_EventsPage/MyNavbar';
+import EventTicket from './Ahmad_Components/Book a conference/EventTicket';
 
-function App() {
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const App = () => {
   return (
     <div>
-      
-
-
-    
-
+    App
     </div>
    
   );
-}
+};
 
 export default App;
