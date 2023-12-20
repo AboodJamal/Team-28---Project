@@ -1,0 +1,110 @@
+.card {
+  width: 370px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.cardimg{
+  width: 100%;
+  height: 85px;
+  object-fit: cover;
+}
+
+.cardinfo {
+  padding: 16px;
+  text-align: center;
+}
+
+.cardavatar {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin: -35px auto 10px;
+  border: 3px solid white;
+  
+  
+}
+
+.cardtitle {
+  font-weight: 700;
+  font-size: 20px;
+  color:#000
+}
+
+.cardsubtitle{
+  font-weight: 400;
+  font-size: 15px;
+  color: #78858F;
+  margin-bottom: 16px;
+}
+
+.cardstats {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+
+.num_mem,.num_post {
+  font-size: 17px;
+  font-weight: 650;
+  color: #000;
+}
+
+.mem {
+  font-size:15px;
+  color: #78858F;
+ 
+}
+.card__avatars{
+  display: flex;
+  justify-content: center; 
+  padding: 10px ;
+}
+
+
+.small-avatar {
+  width: 35px;
+  height: 35px; 
+  border-radius: 50%; 
+  margin: -5px; 
+  border: 2px solid #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.blue__circle{
+  font-size: 10px;
+  font-weight: 600;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin:-15px;
+  background-color: rgb(12, 113, 222); 
+  border: 2px solid #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  position: relative; 
+  top: 11px; 
+  left:10px;
+  
+}
+
+.statsitem{
+  position: relative; 
+}
+
+.statsitem::after {
+  content: ' ';
+  display: inline-block;
+  width: 1px;
+  height: 40px;
+  background-color: #cfd2d4;
+  margin-left: 5px;
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-80%);
+  margin-left: 60px;
+}
