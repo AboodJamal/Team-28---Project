@@ -1,14 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import HelpingPageNavBar from '../abdullah\'s components/HelpingPageNavBar'
-import DiscoverEventsCards from '../abdullah\'s components/DiscoverEventsCards'
-import TopDistenationsCards from '../abdullah\'s components/TopDestinationsCards'
+import HeaderHelpP from '../rajaa\'s components/header-help-p/HeaderHelpP'
+import PopularQuestions from '../nosyba copmonent/popularquestion'
+import RecommendedTopics from '../saleh_components/RecommendedTopics'
+import ArticlesList from '../Ahmad_Components/Articles_components/ArticlesList'
+import Footer from '../nosyba copmonent/footerpage1'
 
 const HelpingPage = () => {
     return (
-        <div>
-            HelpingPage
-            <br></br>
+        <>
+            <HelpingPageNavBar />
+            <HeaderHelpP />
+            <PopularQuestions />
+            <RecommendedTopics />
+            <ArticlesList />
             <div className="d-flex justify-content-end mt-3">
                 <Link
                     to="/OurEventsPage"
@@ -34,7 +40,8 @@ const HelpingPage = () => {
                     Events Page
                 </Link>
             </div>
-        </div>
+            <Footer/>
+        </>
     )
 }
 

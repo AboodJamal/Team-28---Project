@@ -4,7 +4,7 @@ function DestinationCard(props) {
     return (
         <div className="col-6 col-md-6 col-lg-4 mb-4">
             <div className="card position-relative" style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                <a href='"#'>
+                <a href='#'>
                     <img
                         className="card-img-top"
                         src={props.imgLink}

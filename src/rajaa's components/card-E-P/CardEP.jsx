@@ -38,7 +38,7 @@ function CardEP({ data}) {
 
   return (
     <div className="card-container">
-      <div className="card">
+      <div className="card explore">
         <img className="cardimg" src={data.backgroundImage} alt="Group Background" />
         <div className="cardinfo">
           <img className="cardavatar" src={data.avatarImage} alt="Group Avatar" />
