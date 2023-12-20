@@ -1,0 +1,17 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(227, 234, 234);
+}
+
+.container {
+  flex-grow: 1;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+

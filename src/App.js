@@ -1,4 +1,3 @@
-
 import logo from './logo.svg';
 import './App.css';
 import DiscoverEventsCards from './abdullah\'s components/DiscoverEventsCards';
@@ -10,9 +9,7 @@ const App = () => {
   return (
     </div>
     <>
-      <HelpingPageNavBar />
-      <DiscoverEventsCards />
-      <TopDistenationsCards />
+
     </>
   );
 };
