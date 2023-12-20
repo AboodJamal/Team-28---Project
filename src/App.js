@@ -1,17 +1,22 @@
 import React from 'react';
-import ArticlesList from './Ahmad_Components/Articles_components/ArticlesList';
-import MyNavbar from './Ahmad_Components/Navbar_EventsPage/MyNavbar';
-import EventTicket from './Ahmad_Components/Book a conference/EventTicket';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import EventsPage from './components/EventsPage';
+import HelpingPage from './components/HelpingPage';
+import ViewAllEvents from './abdullah\'s components/ViewAllEvents';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-const App = () => {
+function App() {
   return (
-    <div>
-    App
-    </div>
-   
+    <>
+      <Router>
+        <Routes>
+          <Route path="/OurEventsPage" element={<EventsPage />} />
+          <Route path='/HelpingPage' index element={<HelpingPage />} />
+          <Route path='/ViewAllEvents' index element={<ViewAllEvents />} />
+          <Route index element={<HelpingPage />} />
+        </Routes>
+      </Router>
+    </>
   );
-};
+}
 
 export default App;
