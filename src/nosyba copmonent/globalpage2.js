@@ -10,7 +10,7 @@ const Global = () => {
         <div className="col-12 col-md-6 col-lg-6 col mb-5">
           <div
             className="card h-100 position-relative"
-            style={{ objectFit: "cover", height: "290px" ,width:"350px" }}
+            style={{ objectFit: "cover", height: "290px" ,width:"400px" }}
           >
             <div className="card-body">
               <img
