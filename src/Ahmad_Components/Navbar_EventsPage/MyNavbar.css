@@ -1,19 +1,31 @@
 .input-group {
-    max-width: 800px; 
+    max-width: 800px;
     width: 100%;
     margin-left: 20px;
 }
 
 .announcement-pic {
-    margin-left: 5%; 
+    margin-left: 5%;
 }
 
 .btnsr {
     padding: 0;
 }
 
+
+.navbar-nav .nav-link {
+    color: white;
+    transition: none;
+
+}   
+.navbar .nav-link:active,
+.navbar .dropdown-item:active {
+  text-decoration: none; 
+  color: white; 
+}
+
 .ml-auto {
-    margin-left: 74%; 
+    margin-left: 74%;
     margin-right: auto;
 }
 
@@ -34,7 +46,10 @@
 }
 
 @media (max-width: 480px) {
-    .input-group, .announcement-pic, .ml-auto {
+
+    .input-group,
+    .announcement-pic,
+    .ml-auto {
         margin-left: 5px;
         max-width: 100%;
     }
