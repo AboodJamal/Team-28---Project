@@ -4,7 +4,7 @@ import avatarImage from '../Book a conference/pic/qr.png';
 
 const EventTicket = () => {
     return (
-        <div>
+        <div className='ahmadmaindiv'>
             <div className="maincontainer">
                 <p className='bookre'>
                     Book a conference

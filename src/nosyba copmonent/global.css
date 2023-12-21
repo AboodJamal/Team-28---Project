@@ -6,7 +6,7 @@
 
 .container {
     height: 100px;
-
+margin: 0px;
 
 }
 
@@ -18,6 +18,9 @@
 
 
 
+}
+.s33{
+    margin-right: 122px;
 }
 
 .card-global {
@@ -69,7 +72,9 @@
     border: 2px solid white;
 
 }
-
+.col {
+  margin-right: 100PX;
+}
 .each-circle-photo img {
     width: 100%;
     height: 100%;
