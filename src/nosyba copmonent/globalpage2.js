@@ -1,5 +1,7 @@
 
-
+import imgglobal from "./globalpage.jpg"
+import imggirle from"./girleimg.jpeg"
+import imgboy from "./boyimg.jpg"
 
 const Global = () => {
   return (
@@ -8,13 +10,13 @@ const Global = () => {
         <div className="col-12 col-md-6 col-lg-6 col mb-5">
           <div
             className="card h-100 position-relative"
-            style={{ objectFit: "cover", height: "290px" }}
+            style={{ objectFit: "cover", height: "290px" ,width:"350px" }}
           >
             <div className="card-body">
               <img
                 className="card-img-top"
                 style={{ objectFit: "cover" }}
-                src="https://medicalevents.com/sites/default/files/2022-02/Home%20Page_banner.jpg"
+                src={imgglobal}
                 alt=""
               />
               <h5 className="card-title">Global conference</h5>
@@ -33,14 +35,14 @@ const Global = () => {
                     <img
                       className="hh"
                       alt="avatar1"
-                      src="https://us.123rf.com/450wm/luzazure/luzazure2308/luzazure230826646/210361556-portrait-of-a-beautiful-little-girl-with-long-hair-in-the-sunlight.jpg?ver=6"
+                      src={imggirle}
                     />
                   </div>
                   <div className="each-circle-photo">
                     <img
                       className="hh"
                       alt="avatar1"
-                      src="https://img.freepik.com/premium-photo/smiling-teenage-boy-color-background-photo-adorable-young-happy-boy-looking-camera_292052-1651.jpg"
+                      src={imgboy}
                     />
                   </div>
                   <div className="one-circle">
