@@ -1,5 +1,5 @@
-import firebase from 'firebase/compat/app'; // Use 'compat' for compatibility mode
-import 'firebase/compat/firestore'; // Import Firestore
+import firebase from 'firebase/compat/app'; 
+import 'firebase/compat/firestore'; 
 
 const firebaseConfig = {
   apiKey: "AIzaSyAmtw_4EISf9wpKnbAu0KPCL1afkOXOfYE",
@@ -11,7 +11,7 @@ const firebaseConfig = {
     measurementId: "G-M8C7F0RQ4W"
 };
 
-// Initialize Firebase
+
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }
