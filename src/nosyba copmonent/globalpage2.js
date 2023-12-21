@@ -1,18 +1,19 @@
 
+import './stylee.css'
 import imgglobal from "./globalpage.jpg"
 import imggirle from"./girleimg.jpeg"
 import imgboy from "./boyimg.jpg"
 
 const Global = () => {
   return (
-    <div className="container">
+    <div className="container ss22" >
       <div className="row">
-        <div className="col-12 col-md-6 col-lg-6 col mb-5">
+        <div className="col-lg">
           <div
-            className="card h-100 position-relative"
-            style={{ objectFit: "cover", height: "290px" ,width:"400px" }}
+            className="card h-100 position-relative s55"
+            style={{  }}
           >
-            <div className="card-body">
+            <div className="card-body ss333">
               <img
                 className="card-img-top"
                 style={{ objectFit: "cover" }}

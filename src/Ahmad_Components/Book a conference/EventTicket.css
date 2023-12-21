@@ -3,13 +3,13 @@
     background-size: cover;
     width: 700px;
     background-repeat: no-repeat;
-   
     
 }
 .maincontainer{
   
     width: 700px;
-   
+    margin-right: 200PX;
+
    
 }
 .bookre{
@@ -23,6 +23,7 @@
     border-radius: 10px;
     padding: 15px;
     width: 300px;
+    
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    
@@ -32,6 +33,7 @@
     text-align: center;
     margin-top: 40px;
     margin-left: 120px;
+    
     border-radius: 10px;
 }
 
@@ -135,4 +137,64 @@ body {
     }
 
     
+}
+@media only screen and (max-width: 1622px) {
+
+    .eventAhm{
+        margin-left: 270PX;
+        width: 100%;
+        height: auto;
+
+    }
+
+
+
+}
+@media only screen and (max-width: 390px) {
+
+    .eventAhm{
+        
+        width: 100%;
+        height: auto;
+        margin-left: 100px;
+        
+    }
+
+
+
+}
+@media only screen and (max-width: 391px){
+
+    .eventAhm{
+        
+        width: 100%;
+        
+        margin-left: 100px;
+
+    }
+    .bookre{
+       margin-left: 90px;
+    }
+
+
+}
+@media only screen and (max-width: 970px){
+
+    .eventAhm{
+        
+        width: 100%;
+        margin-left: 200PX;
+        
+        
+    }
+
+}
+@media only screen and (max-width: 494px){
+
+    .eventAhm{
+        
+        width: 500px
+        
+    }
+
 }

@@ -17,10 +17,10 @@ const EventsPage = () => {
             <DiscoverEventsCards />
             <div className="d-flex justify-content-center">
                 <div className="row">
-                    <div className="col text-center">
-                        <Global style="width: 75%;" />
+                    <div className="col text-center custom-size">
+                        <Global  />
                     </div>
-                    <div className="col text-center">
+                    <div className="col text-center custom-size">
                         <EventTicket />
                     </div>
                 </div>
