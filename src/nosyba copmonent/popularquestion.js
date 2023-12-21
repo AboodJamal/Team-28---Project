@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { db } from '../firebase';
 import { collection, getDocs } from 'firebase/firestore';
-import"./nosyba copmonent/popylar.css"; // Your CSS styles for the component
+import "./popylar.css"; // Your CSS styles for the component
 
 const PopularQuestions = () => {
   const [questions, setQuestions] = useState([]);
@@ -25,23 +25,19 @@ const PopularQuestions = () => {
 
   return (
     <div className="container text-center">
-        <div className='my-4'></div>
-    <div className="popular-questions-container">
-      <h2>Popular questions</h2>
-      <div className="questions-list">
-        {questions.map((question) => (
-          <div key={question.id} className="question">  
-            {question.title} {/* Replace with your field name */} 
-          </div>
-       
-        ))}
-        <button className="view-all-button">View all questions</button>
-    </div>
+      <div className='my-4'></div>
+      <div className="popular-questions-container">
+        <h2>Popular questions</h2>
+        <div className="questions-list">
+          {questions.map((question) => (
+            <div key={question.id} className="question">
+              {question.title} {/* Replace with your field name */}
+            </div>
+          ))}
+          <button className="view-all-button">View all questions</button>
+        </div>
       </div>
-     
     </div>
-    
-    
   );
 };
 

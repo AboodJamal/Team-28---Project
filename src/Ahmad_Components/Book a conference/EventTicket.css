@@ -1,4 +1,4 @@
-.container {
+.eventAhm {
     background-image: url('./pic/1aaa \(2\).png');
     background-size: cover;
     width: 700px;
@@ -85,13 +85,13 @@ body {
 
 
 
-.col {
+.evvk {
     margin-left: 10px;
 }
 
 
 @media only screen and (max-width: 768px) {
-    .container {
+    .eventAhm {
         width: 100%; 
         margin-top: 100px; 
         padding: 0 15px; 
@@ -130,7 +130,7 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-    .container {
+    .eventAhm {
         margin-top: 50px; 
     }
 

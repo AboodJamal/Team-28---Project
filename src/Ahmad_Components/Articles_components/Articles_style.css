@@ -81,7 +81,7 @@ body {
     margin-bottom: 20px;
 }
 
-.container {
+.ahh {
     width: 100%;
     max-width: 820px;
     margin: 0 auto;
@@ -89,7 +89,7 @@ body {
 
 
 @media (max-width: 768px) {
-    .container {
+    .ahh {
         width: 90%;
     }
 
