@@ -27,11 +27,11 @@ const PopularQuestions = () => {
     <div className="container text-center">
       <div className='my-4'></div>
       <div className="popular-questions-container">
-        <h2>Popular questions</h2>
+        <h2>Popular questions</h2><br></br>
         <div className="questions-list">
           {questions.map((question) => (
             <div key={question.id} className="question">
-              {question.title} {/* Replace with your field name */}
+              {question.title} 
             </div>
           ))}
           <button className="view-all-button">View all questions</button>
