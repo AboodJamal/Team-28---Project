@@ -1,45 +1,49 @@
-.img-fluid{
+.img-fluid {
     width: 440px;
     height: 180px;
 
 }
-.container{
+
+.container {
     height: 100px;
-    
- 
+
+
 }
-.card-text{
+
+.card-text {
     color: rgb(150, 148, 148);
     line-height: 40px;
     width: 1000px;
     margin-top: -20px;
- 
 
-    
+
+
 }
-.card-global{
-    color:  rgb(150, 148, 148);
+
+.card-global {
+    color: rgb(150, 148, 148);
     line-height: 60px;
     margin-top: -28px;
-   
+
 }
-.card-title{
+
+.card-title {
     line-height: 60px;
-    
+
 }
 
 .photos-and-circle-cont {
     display: flex;
     justify-content: space-between;
-   
-  
+
+
 
 
 }
 
 .circled-photos {
     display: flex;
-    
+
 }
 
 .one-circle {
@@ -52,7 +56,7 @@
     align-items: center;
     margin-left: -14px;
     border: 2px solid white;
-     
+
 }
 
 
@@ -63,14 +67,14 @@
     overflow: hidden;
     margin-left: -14px;
     border: 2px solid white;
-   
+
 }
 
 .each-circle-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  
+
 }
 
 
@@ -82,5 +86,3 @@
     font-size: 15px;
     color: rgb(150, 148, 148);
 }
-
-

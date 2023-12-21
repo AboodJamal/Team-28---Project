@@ -7,36 +7,36 @@ import { CiMobile2 } from "react-icons/ci";
 function FooterEventsP() {
   return (
     <div>
-     
+
       <footer className=" text-center text-lg-start bg-body-tertiary text-muted">
-        
+
         <section className="d-flex justify-content-center justify-content-lg-between p-4 ">
-         
-          
+
+
         </section>
-        
+
         <section>
           <div className="container text-center text-md-start mt-5">
-            
+
             <div className="row mt-3">
-              
+
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                
+
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3" /><img src={logo}  />
+                  <i className="fas fa-gem me-3" /><img src={logo} />
                 </h6>
                 <p>
                   Match way these she avoids seeing death their fat off.
                 </p>
               </div>
-              
+
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                
+
                 <h5 className=" fw-bold mb-4 text-dark">
-                  Download 
+                  Download
                 </h5>
                 <p>
-                 <a href="#!" className="text-reset text-decoration-none"><IoGlobeOutline />  Web Browser</a>
+                  <a href="#!" className="text-reset text-decoration-none"><IoGlobeOutline />  Web Browser</a>
                 </p>
                 <p>
                   <a href="#!" className="text-reset text-decoration-none"> <FaWindows /> Windows</a>
@@ -48,9 +48,9 @@ function FooterEventsP() {
                   <a href="#!" className="text-reset text-decoration-none"><CiMobile2 /> iOS & Android</a>
                 </p>
               </div>
-              
+
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                
+
                 <h5 className=" fw-bold mb-4 text-dark">
                   About
                 </h5>
@@ -70,9 +70,9 @@ function FooterEventsP() {
                   <a href="#!" className="text-reset text-decoration-none">Careers-<span className='fw-bold'>Join Us!</span></a>
                 </p>
               </div>
-              
+
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-               
+
                 <h5 className=" fw-bold mb-4 text-dark">Resources</h5>
 
                 <p>
@@ -80,7 +80,7 @@ function FooterEventsP() {
                 </p>
                 <p>
                   <a href="#!" className="text-reset text-decoration-none">Help Center</a>
-                </p>  
+                </p>
                 <p>
                   <a href="#!" className="text-reset text-decoration-none">Developers</a>
                 </p>
@@ -91,37 +91,37 @@ function FooterEventsP() {
                   <a href="#!" className="text-reset text-decoration-none">Communities</a>
                 </p>
               </div>
-              
+
             </div>
-            
+
           </div>
         </section>
-        
-      <div className="d-flex justify-content-between text-center p-4 border-top" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)' }}>
-        <div className="mx-5">
-           <a href="#!" className="text-reset d-inline mx-2 text-decoration-none">
-            Support
-           </a>
-           <a href="#!" className="text-reset d-inline mx-2 text-decoration-none">
-            Docs
-           </a>
-           <a href="#!" className="text-reset d-inline mx-2 text-decoration-none">
-            Terms of Use
-           </a>
-           <a href="#!" className="text-reset d-inline mx-2 text-decoration-none">
-            Privacy & terms
-           </a>
-        </div>
-        <div className="mx-5">
-           <a href="#" className="text-reset d-inline mx-2 text-decoration-none">
-           ©2023 Webestica All rights reserved.
-           </a>
-        </div>
-     </div>
 
-        
+        <div className="d-flex justify-content-between text-center p-4 border-top" style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)' }}>
+          <div className="mx-5">
+            <a href="#!" className="text-reset d-inline mx-2 text-decoration-none">
+              Support
+            </a>
+            <a href="#!" className="text-reset d-inline mx-2 text-decoration-none">
+              Docs
+            </a>
+            <a href="#!" className="text-reset d-inline mx-2 text-decoration-none">
+              Terms of Use
+            </a>
+            <a href="#!" className="text-reset d-inline mx-2 text-decoration-none">
+              Privacy & terms
+            </a>
+          </div>
+          <div className="mx-5">
+            <a href="#" className="text-reset d-inline mx-2 text-decoration-none">
+              ©2023 Webestica All rights reserved.
+            </a>
+          </div>
+        </div>
+
+
       </footer>
-     
+
     </div>
   );
 }
