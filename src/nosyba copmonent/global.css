@@ -1,52 +1,46 @@
-.img-fluid {
+.img-fluid{
     width: 440px;
     height: 180px;
 
 }
-
-.container {
+.container{
     height: 100px;
-margin: 0px;
-
+  
+    
+ 
 }
-
-.card-text {
+.card-text{
     color: rgb(150, 148, 148);
     line-height: 40px;
     width: 1000px;
     margin-top: -20px;
+ 
 
-
-
+    
 }
-.s33{
-    margin-right: 122px;
-}
-
-.card-global {
-    color: rgb(150, 148, 148);
+.card-global{
+    color:  rgb(150, 148, 148);
     line-height: 60px;
     margin-top: -28px;
-
+   
 }
-
-.card-title {
+.card-title{
     line-height: 60px;
-
+    
 }
 
 .photos-and-circle-cont {
     display: flex;
     justify-content: space-between;
-
-
+   
+  
 
 
 }
 
 .circled-photos {
     display: flex;
-
+    
 }
 
 .one-circle {
@@ -59,7 +53,7 @@ margin: 0px;
     align-items: center;
     margin-left: -14px;
     border: 2px solid white;
-
+     
 }
 
 
@@ -70,16 +64,14 @@ margin: 0px;
     overflow: hidden;
     margin-left: -14px;
     border: 2px solid white;
+   
+}
 
-}
-.col {
-  margin-right: 100PX;
-}
 .each-circle-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
+  
 }
 
 
@@ -91,3 +83,5 @@ margin: 0px;
     font-size: 15px;
     color: rgb(150, 148, 148);
 }
+
+
