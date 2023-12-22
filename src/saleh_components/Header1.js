@@ -13,10 +13,10 @@ import headerImg from './BackgroundImage.png'
 function Header1() {
 
   const [what, setWhat] = useState('');
-  const [error, setError] = useState(''); 
+  const [error, setError] = useState('');
 
   const handleSearchClick = async () => {
-    setError(''); 
+    setError('');
     try {
       const eventsCollection = collection(db, 'events');
       const querySnapshot = await getDocs(eventsCollection);
@@ -28,7 +28,7 @@ function Header1() {
       }
     } catch (error) {
       console.error("Error fetching events: ", error);
-      setError('Failed to fetch events. Please try again.'); 
+      setError('Failed to fetch events. Please try again.');
     }
   };
 
@@ -39,16 +39,16 @@ function Header1() {
 
       <section className="position-relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${headerImg})`, 
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${headerImg})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "top center",
           height: "700px",
         }}>
-        <MyNavbar/>
-        <div className='header-des' style={{marginTop:"160px"}}>
+        <MyNavbar />
+        <div className='header-des' style={{ marginTop: "160px" }}>
           <h1>Find events near you</h1>
-          <p style={{marginBottom:"10px"}}>Let's uncover the best places to eat, drink, and shop nearest to you.</p>
+          <p style={{ marginBottom: "10px" }}>Let's uncover the best places to eat, drink, and shop nearest to you.</p>
         </div>
         <div className="container" >
           <div className='header-form bg-white' >
@@ -90,9 +90,7 @@ function Header1() {
                 src='https://png.pngtree.com/png-clipart/20220818/ourmid/pngtree-1st-medal-png-image_6114195.png'
                 className='card-image'
               />
-              <Card.Text>
-                <p className='card-content'>Arts &<br /> Entertainment</p>
-              </Card.Text>
+              <p className='card-content'>Arts &<br /> Entertainment</p>
             </Card>
           </Col>
           <Col md>
@@ -103,8 +101,8 @@ function Header1() {
                   className="img-fluid"
                 />
               </div>
-              <Card.Text><p className='card-content'>Events &
-                <br /> Parties </p></Card.Text>
+              <p className='card-content'>Events &
+                <br /> Parties </p>
             </Card>
           </Col>
           <Col md>
@@ -115,8 +113,8 @@ function Header1() {
                   className="img-fluid"
                 />
               </div>
-              <Card.Text><p className='card-content'>PNY E-Gaming
-                <br /> Fest </p></Card.Text>
+              <p className='card-content'>PNY E-Gaming
+                <br /> Fest </p>
             </Card>
           </Col>
           <Col md>
@@ -127,8 +125,8 @@ function Header1() {
                   className="img-fluid"
                 />
               </div>
-              <Card.Text><p className='card-content'>Events &
-                <br /> Parties </p></Card.Text>
+              <p className='card-content'>Events &
+                <br /> Parties </p>
             </Card>
           </Col>
           <Col md>
@@ -139,8 +137,8 @@ function Header1() {
                   className="img-fluid"
                 />
               </div>
-              <Card.Text><p className='card-content'>Sports &
-                <br /> Wellness </p></Card.Text>
+              <p className='card-content'>Sports &
+                <br /> Wellness </p>
             </Card>
           </Col>
         </Row>

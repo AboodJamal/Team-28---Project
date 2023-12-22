@@ -26,4 +26,4 @@ const ViewAllEvents = () => {
     );
 }
 
-export default ViewAllEvents
+export default ViewAllEvents;
