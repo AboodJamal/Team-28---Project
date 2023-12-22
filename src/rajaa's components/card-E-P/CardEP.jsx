@@ -3,10 +3,10 @@ import './CardEP.css';
 
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-function CardEP({ data}) {
+function CardEP({ data }) {
   const renderAvatars = () => {
     if (data.index === 0) {
-      
+
       return (
         <>
           <img src={data.avatar1} alt="Avatar 1" className="small-avatar" />
@@ -16,7 +16,7 @@ function CardEP({ data}) {
         </>
       );
     } else if (data.index === 1) {
-      
+
       return (
         <>
           <img src={data.avatar1} alt="Avatar 1" className="small-avatar" />
@@ -25,7 +25,7 @@ function CardEP({ data}) {
         </>
       );
     } else {
-      
+
       return (
         <>
           <img src={data.avatar4} alt="Avatar 4" className="small-avatar" />

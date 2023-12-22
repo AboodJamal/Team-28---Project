@@ -29,7 +29,7 @@ const linkButtonStyle = {
 
 const EventsPage = () => {
     return (
-        <>
+        <div style={{backgroundColor:"white"}}>
             <Header1 />
             <DiscoverEventsCards />
             <div className="container">
@@ -55,8 +55,9 @@ const EventsPage = () => {
                 </Link>
             </div>
             <FooterEventsP />
-        </>
+        </div>
     )
 }
 
-export default EventsPage
+export default EventsPage;
+

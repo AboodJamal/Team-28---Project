@@ -15,7 +15,7 @@ function FooterEventsP() {
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3" /><img src={logo} />
+                  <img src={logo} />
                 </h6>
                 <p>
                   Match way these she avoids seeing death their fat off.
@@ -86,13 +86,13 @@ function FooterEventsP() {
                 Support
               </a>
               <a href="#!" className="text-reset d-inline mx-2 text-decoration-none">
-              Docs
+                Docs
               </a>
               <a href="#!" className="text-reset d-inline mx-2 text-decoration-none">
-              Terms of Use
+                Terms of Use
               </a>
               <a href="#!" className="text-reset d-inline mx-2 text-decoration-none">
-              Privacy & terms
+                Privacy & terms
               </a>
             </div>
             <div className="col-md-6 col-lg-6 col-xl-6 order-first order-md-last mb-4 mb-md-0 text-center text-md-end">

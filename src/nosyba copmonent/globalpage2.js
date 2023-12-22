@@ -1,17 +1,17 @@
 
 import './stylee.css'
 import imgglobal from "./globalpage.jpg"
-import imggirle from"./girleimg.jpeg"
+import imggirle from "./girleimg.jpeg"
 import imgboy from "./boyimg.jpg"
 
 const Global = () => {
   return (
-    <div className="container ss22" >
+    <div className="container ss22"  >
       <div className="row">
         <div className="col-lg">
           <div
             className="card h-100 position-relative s55"
-            style={{  }}
+            style={{ border: "none" }}
           >
             <div className="card-body ss333">
               <img

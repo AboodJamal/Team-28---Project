@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function HelpingPageNavBar() {
     return (
@@ -95,10 +96,10 @@ function HelpingPageNavBar() {
                             placeholder="Search"
                             aria-label="Search"
                             style={{
-                                paddingLeft: "42px", 
+                                paddingLeft: "42px",
                                 height: "40px",
                                 backgroundRepeat: 'no-repeat',
-                                backgroundPosition: '12px center', 
+                                backgroundPosition: '12px center',
                             }}
                         />
                     </form>
@@ -150,22 +151,9 @@ function HelpingPageNavBar() {
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown" >
                                 <li>
-                                    <a className="dropdown-item" href="#">
-                                        Action 1
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="dropdown-item" href="#">
-                                        Action 2
-                                    </a>
-                                </li>
-                                <li>
-                                    <hr className="dropdown-divider" />
-                                </li>
-                                <li>
-                                    <a className="dropdown-item" href="#">
-                                        Something else
-                                    </a>
+                                    <Link to="/OurEventsPage" className="dropdown-item" >
+                                        Events Page
+                                    </Link>
                                 </li>
                             </ul>
                         </li>

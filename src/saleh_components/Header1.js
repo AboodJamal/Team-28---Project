@@ -82,7 +82,7 @@ function Header1() {
       <br></br>
       <br></br>
       <br></br>
-      <div className="container" style={{ marginTop: "-160px" }}   >
+      <div className="container" style={{ marginTop: "-10%" }}   >
         <Row className="g-4" >
           <Col md>
             <Card className='h-100'>
