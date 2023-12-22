@@ -32,7 +32,7 @@ const EventsPage = () => {
         <>
             <Header1 />
             <DiscoverEventsCards />
-            <div class="container">
+            <div className="container">
             <div className="row  ">
                     <div className="col-lg-5">
                         <Global  />
