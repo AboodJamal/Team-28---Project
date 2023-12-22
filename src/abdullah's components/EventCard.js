@@ -48,7 +48,7 @@ const EventCard = (props) => {
                     <div className="card-footer p-4 pt-0 border-top-0 bg-transparent ">
                         <div className="text-center">
                             <button
-                                className={`btn ${buttonClicked ? 'btn-success' : 'btn-outline-dark'} mt-auto`}
+                                className={`btn mt-auto`}
                                 href="#"
                                 onClick={handleButtonClick}
                                 style={{
@@ -61,7 +61,7 @@ const EventCard = (props) => {
                                     borderRadius: "3px"
                                 }}
                             >
-                                <i className="bi bi-hand-thumbs-up-fill" style={{ color: buttonClicked ? 'white' : '#3DB341' }} /> Interested
+                                <i className="bi bi-hand-thumbs-up-fill" /> Interested
                             </button>
                             <a href="#" className="btn btn-primary ms-2" style={{ backgroundColor: '#c7e7ff', borderColor: '#c7e7ff' }}>
                                 <i className="bi bi-share-fill" style={{ color: '#0E6FEB' }}></i>

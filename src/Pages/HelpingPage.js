@@ -6,6 +6,23 @@ import PopularQuestions from '../nosyba copmonent/popularquestion'
 import RecommendedTopics from '../saleh_components/RecommendedTopics'
 import ArticlesList from '../Ahmad_Components/Articles_components/ArticlesList'
 import Footer from '../nosyba copmonent/footerpage1'
+const linkButtonStyle = {
+    transition: 'all 0.3s ease-in-out',
+    width: 'fit-content',
+    height: '40px',
+    borderRadius: '50px',
+    backgroundImage: 'linear-gradient(135deg, #feb666 0%, #ea5445 100%)',
+    outline: 'none',
+    cursor: 'pointer',
+    border: 'none',
+    fontSize: '16px',
+    color: 'white',
+    marginBottom: '10px',
+    marginRight: '10px',
+    justifyContent: 'center',
+    alignItems: 'center',
+    display: 'flex',
+};
 
 const HelpingPage = () => {
     return (
@@ -19,28 +36,12 @@ const HelpingPage = () => {
                 <Link
                     to="/OurEventsPage"
                     className="btn btn-primary"
-                    style={{
-                        transition: 'all 0.3s ease-in-out',
-                        width: 'fit-content',
-                        height: '40px',
-                        borderRadius: '50px',
-                        backgroundImage: 'linear-gradient(135deg, #feb666 0%, #ea5445 100%)',
-                        outline: 'none',
-                        cursor: 'pointer',
-                        border: 'none',
-                        fontSize: '16px',
-                        color: 'white',
-                        marginBottom: '10px',
-                        marginRight: '10px',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        display: 'flex',
-                    }}
+                    style={linkButtonStyle}
                 >
                     Events Page
                 </Link>
             </div>
-            <Footer/>
+            <Footer />
         </>
     )
 }
