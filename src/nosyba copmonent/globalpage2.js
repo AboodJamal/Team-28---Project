@@ -1,61 +1,66 @@
 
-import './stylee.css'
-import imgglobal from "./globalpage.jpg"
-import imggirle from"./girleimg.jpeg"
+
+import imggirle from "./girleimg.jpeg"
 import imgboy from "./boyimg.jpg"
 
-const Global = () => {
-  return (
-    <div className="container ss22" >
-      <div className="row">
-        <div className="col-lg">
-          <div
-            className="card h-100 position-relative s55"
-            style={{  }}
-          >
-            <div className="card-body ss333">
+import imageGlobal from "./globalpage.jpg"
+
+const Global =()=>{
+    return(
+<div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6 col-lg-6 col mb-5">
+            <div
+              className="card h-100 position-relative"
+             style={{ objectFit: "cover" ,height: "350px" , width:"470px",}}
+            >
+            
+              <div className="card-body">
               <img
                 className="card-img-top"
                 style={{ objectFit: "cover" }}
-                src={imgglobal}
+                src={imageGlobal}              
                 alt=""
               />
-              <h5 className="card-title">Global conference</h5>
-              <div className="card-text">
-                He moonlights difficult engrossed it,sportsmen.Interested has
-              </div>
-              <div className="card-global">
-                all Devonshire difficult gay assistance joy.
-              </div>
-              <div
-                className="photos-and-circle-cont"
-                style={{ marginTop: 5, marginLeft: 10 }}
-              >
-                <div className="circled-photos">
-                  <div className="each-circle-photo">
-                    <img
-                      className="hh"
-                      alt="avatar1"
-                      src={imggirle}
-                    />
-                  </div>
-                  <div className="each-circle-photo">
-                    <img
-                      className="hh"
-                      alt="avatar1"
-                      src={imgboy}
-                    />
-                  </div>
-                  <div className="one-circle">
-                    <span
-                      className="att-number"
-                      style={{ fontSize: 10, color: "white" }}
-                    >
-                      +34
-                    </span>
-                  </div>
-                  <div className="attending-text">
-                    <p>are attending</p>
+                <h5 className="card-title">Global conference</h5>
+                <div className="card-text">
+                 
+                  He moonlights difficult engrossed it,sportsmen.Interested has
+                </div>
+                <div className="card-global">
+                 
+                  all Devonshire difficult gay assistance joy.
+                </div>
+                <div
+                  className="photos-and-circle-cont"
+                  style={{ marginTop: 5, marginLeft: 10 }}
+                >
+                  <div className="circled-photos">
+                    <div className="each-circle-photo">
+                      <img
+                        className="hh"
+                        alt="avatar1"
+                        src={imggirle}
+                      />
+                    </div>
+                    <div className="each-circle-photo">
+                      <img
+                        className="hh"
+                        alt="avatar1"
+                        src={imgboy}
+                      />
+                    </div>
+                    <div className="one-circle">
+                      <span
+                        className="att-number"
+                        style={{ fontSize: 10, color: "white" }}
+                      >
+                        +34
+                      </span>
+                    </div>
+                    <div className="attending-text">
+                      <p>are attending</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -63,8 +68,7 @@ const Global = () => {
           </div>
         </div>
       </div>
-    </div>
 
-  );
+    );
 }
-export default Global; 
+export  default Global; 

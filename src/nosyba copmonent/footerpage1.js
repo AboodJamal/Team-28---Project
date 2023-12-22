@@ -6,13 +6,13 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-6 col-lg-6 col-xl-6 order-last order-md-first mb-4 mb-md-0 text-center text-md-start">
               <a href="#" className="text-reset d-inline mx-2 text-decoration-none">
-                Support
+                About
               </a>
               <a href="#" className=" text-decoration-none text-reset d-inline mx-2 ">
-                Docs
+              Support
               </a>
               <a href="#" className=" text-decoration-none text-reset d-inline mx-2 ">
-                Terms of Use
+               Docs
               </a>
               <a href="#" className=" text-decoration-none text-reset d-inline mx-2 ">
                 Privacy & terms
