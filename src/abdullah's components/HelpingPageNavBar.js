@@ -64,8 +64,8 @@ function HelpingPageNavBar() {
                         </li>
                         <li className="nav-item ">
                             <a href="#" className="profile-image" >
-                                <img src="https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/362262967_1427459524776754_8623404211282031163_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=0Sma7m9Y3o0AX-QVxh4&_nc_ht=scontent-ams2-1.xx&oh=00_AfDRJBId9JxVvIP2wRnJ9Q1VyKp63JMMdtICKlJA1hCjcQ&oe=658353FC"
-                                    style={{ width: "40px", height: "40px", marginTop: "0px", borderRadius: "6px" }}
+                                <img src="https://www.engineering.iastate.edu/people/files/2016/01/Subramaniam-Shankar-least-square.jpg"
+                                    style={{ width: "42px", height: "42px", marginTop: "0px", borderRadius: "6px" }}
                                 />
                             </a>
                         </li>
