@@ -1,4 +1,3 @@
-// src/components/card-E-P/CardEP.jsx
 import React from 'react';
 import './CardEP.css';
 

@@ -16,11 +16,11 @@ function CardsEP() {
   }, []);
 
   return (
-    <div className="container px-4 px-lg-5 mt-5">
-      <div className="mb-4 px-md- d-flex ">
+    <div className="container mt-5">
+      <div className="mb-4  d-flex ">
         <h1 className='fs-3 fw-bold'>Explore Groups</h1>
       </div>
-      <div className="row row-cols-1 row-cols-md-2 row-cols-xl-3 px-md-1 ">
+      <div className="row row-cols-1 row-cols-md-1 row-cols-xl-3 px-md-2 ">
         {groups.map(group => (
           <div key={group.id} className="col mb-4">
             <CardEP data={group} />
@@ -31,4 +31,4 @@ function CardsEP() {
   );
 }
 
-export default CardsEP;
+export default CardsEP; 

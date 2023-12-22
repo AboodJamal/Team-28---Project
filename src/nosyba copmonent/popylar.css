@@ -4,8 +4,9 @@
   align-items: center;
   padding: 20px;
   background-color: white;
-  height: 200px;
-  width: 1300px;
+  max-width: 100%;
+
+ 
 }
 
 .questions-list {
@@ -13,16 +14,28 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  max-width: 100%;
 }
-
 
 .question {
   padding: 10px;
-  background-color: #e4e3e3;
+  background-color: #f2eeee;
+  width: fit-content;
+ 
+  border-radius: 6px;
 }
 
 .view-all-button {
-  background-color: rgb(177, 204, 228);
-  color: rgb(14, 20, 201);
+  background-color: #e6f1fd;
+  color: #497ce9;
+  margin-top: 2.5px;
+  height: 40px;
+  border: 6px solid transparent; 
 }
 
+@media screen and (max-width: 768px) {
+  .question {
+    width: calc(100% - 20px);
+ 
+  }
+}

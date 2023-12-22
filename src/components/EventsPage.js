@@ -12,7 +12,7 @@ import EventTicket from '../Ahmad_Components/Book a conference/EventTicket'
 const EventsPage = () => {
     return (
         <>
-            <MyNavbar />
+           
             <Header1 />
             <DiscoverEventsCards />
             <div class="container">
