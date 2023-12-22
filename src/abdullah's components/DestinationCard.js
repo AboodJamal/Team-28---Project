@@ -12,9 +12,9 @@ function DestinationCard(props) {
                         style={{ borderRadius: '6px', width: '100%', height: '270px', objectFit: 'cover' }}
                     />
                 </a>
-                <div className="position-absolute bottom-0 start-0 p-2 mb-2" style={{ color: 'white' }}>
-                    <p className="text-light m-0 mb-1" style={{ fontSize: "20px", fontWeight: "bold" }} >{props.title}</p>
-                    <p className="text-light m-0" style={{ fontSize: "12px" }}>{props.underTitle}</p>
+                <div className="position-absolute bottom-0 start-0 p-2 mb-2" style={{ color: 'white', marginLeft: "10px" }}>
+                    <p className="text-light m-0 mb-1 " style={{ fontSize: "22px", fontWeight: "bold" }} >{props.title}</p>
+                    <p className="text-light m-0" style={{ fontSize: "14px" }}>{props.underTitle}</p>
                 </div>
             </div>
         </div>

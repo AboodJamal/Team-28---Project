@@ -9,16 +9,33 @@ import Global from '../nosyba copmonent/globalpage2'
 import Header1 from '../saleh_components/Header1'
 import EventTicket from '../Ahmad_Components/Book a conference/EventTicket'
 
+const linkButtonStyle = {
+    transition: 'all 0.3s ease-in-out',
+    width: 'fit-content',
+    height: '40px',
+    borderRadius: '50px',
+    backgroundImage: 'linear-gradient(135deg, #feb692 0%, #ea5455 100%)',
+    outline: 'none',
+    cursor: 'pointer',
+    border: 'none',
+    fontSize: '16px',
+    color: 'white',
+    marginBottom: '10px',
+    marginRight: '10px',
+    justifyContent: 'center',
+    alignItems: 'center',
+    display: 'flex',
+};
+
 const EventsPage = () => {
     return (
         <>
-           
             <Header1 />
             <DiscoverEventsCards />
             <div className="d-flex justify-content-center">
                 <div className="row">
                     <div className="col text-center custom-size">
-                        <Global  />
+                        <Global />
                     </div>
                     <div className="col text-center custom-size">
                         <EventTicket />
@@ -31,23 +48,7 @@ const EventsPage = () => {
                 <Link
                     to="/HelpingPage"
                     className="btn btn-primary"
-                    style={{
-                        transition: 'all 0.3s ease-in-out',
-                        width: 'fit-content',
-                        height: '40px',
-                        borderRadius: '50px',
-                        backgroundImage: 'linear-gradient(135deg, #feb692 0%, #ea5455 100%)',
-                        outline: 'none',
-                        cursor: 'pointer',
-                        border: 'none',
-                        fontSize: '16px',
-                        color: 'white',
-                        marginBottom: '10px',
-                        marginRight: '10px',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        display: 'flex',
-                    }}
+                    style={linkButtonStyle}
                 >
                     Helping Page
                 </Link>

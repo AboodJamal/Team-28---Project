@@ -58,7 +58,7 @@ function CardEP({ data}) {
           <div className="card__avatars">
             {renderAvatars()}
             <div className="blue__circle">
-              <h className="number">{data.number}</h>
+              <span className="number">{data.number}</span>
             </div>
           </div>
         </div>

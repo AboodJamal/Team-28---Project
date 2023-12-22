@@ -95,10 +95,10 @@ function HelpingPageNavBar() {
                             placeholder="Search"
                             aria-label="Search"
                             style={{
-                                paddingLeft: "42px", // Make space for the icon
+                                paddingLeft: "42px", 
                                 height: "40px",
                                 backgroundRepeat: 'no-repeat',
-                                backgroundPosition: '12px center', // Adjust position of the icon
+                                backgroundPosition: '12px center', 
                             }}
                         />
                     </form>
