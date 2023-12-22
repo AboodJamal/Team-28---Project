@@ -15,16 +15,17 @@ const EventsPage = () => {
             <MyNavbar />
             <Header1 />
             <DiscoverEventsCards />
-            <div className="d-flex justify-content-center">
-                <div className="row">
-                    <div className="col text-center custom-size">
+            <div class="container">
+            <div className="row  ">
+                    <div className="col-lg-5">
                         <Global  />
                     </div>
-                    <div className="col text-center custom-size">
+                    <div className="col-lg-5">
                         <EventTicket />
                     </div>
                 </div>
             </div>
+            
             <TopDistenationsCards />
             <CardsEP />
             <div className="d-flex justify-content-end mt-3">

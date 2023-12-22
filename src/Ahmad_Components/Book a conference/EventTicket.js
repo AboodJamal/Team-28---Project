@@ -4,7 +4,7 @@ import avatarImage from '../Book a conference/pic/qr.png';
 
 const EventTicket = () => {
     return (
-        <div className='ahmadmaindiv'>
+     <div>
             <div className="maincontainer">
                 <p className='bookre'>
                     Book a conference
@@ -43,7 +43,8 @@ const EventTicket = () => {
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
+      
     );
 }
 
